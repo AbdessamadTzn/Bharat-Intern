@@ -1,7 +1,7 @@
 # Bharat-Intern
 Data Science Intern at Bharat Intern
 
-Fir this internship, I will be working on the following tasks:
+For this internship, I will be working on the following tasks:
 
 ## - SMS Classifier: 
 Develop a text classification model to classify SMS as either spam or non-spam using data science techniques in Python.
