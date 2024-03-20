@@ -3,9 +3,10 @@ Data Science Intern at Bharat Intern
 
 For this internship, I will be working on the following tasks:
 
-## - Titanic Classification: 
-Utilizing Python and data science methodologies, this project aims to construct a predictive model to estimate the probability of survival for passengers aboard the Titanic. By leveraging machine learning algorithms, the model will analyze historical data to infer survival outcomes based on various passenger attributes.
-Project Overview:
+## - **Titanic Classification:** 
+Utilizing Python and data science methodologies, this project aims to construct a predictive model to estimate the probability of survival for passengers aboard the Titanic. By leveraging machine learning algorithms, the model will analyze historical data to infer survival outcomes based on various passenger attributes. 
+
+### **Project Overview:**
 
   - **Data Preparation and Exploration:** Initially, the dataset will undergo thorough cleaning and exploration to identify patterns and insights crucial for modeling.
 
