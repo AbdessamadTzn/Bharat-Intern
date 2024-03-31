@@ -1,14 +1,23 @@
 from flask import Flask, request, jsonify, render_template
+from dotenv import load_dotenv
 import joblib
+import os
 
-#Load the model
-model = joblib.load('abdessamad_titanic_LR-Model.pkl')
+# Load environment variables
+load_dotenv()
+
+# Get files from the env
+MODEL_PATH = os.getenv("MODEL_PATH")
+STATIC_IMAGE_PATH = os.getenv("STATIC_IMAGE_PATH")
+
+# Load the model
+model = joblib.load(MODEL_PATH)
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('index.html', STATIC_IMAGE_PATH=STATIC_IMAGE_PATH)
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -28,7 +37,7 @@ def predict():
         fare = float(fare)
         embarked = int(embarked)
 
-        #make predictions
+        # Make predictions
         features = [[pclass, sex, age, sibsp, parch, fare, embarked]]
         prediction = model.predict(features)[0]
 
