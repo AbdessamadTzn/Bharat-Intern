@@ -1,0 +1,1 @@
+For live demo: [Titanic Prediction](https://www.linkedin.com/posts/abdessamadtouzani_datascience-dataanalysis-machinelearning-activity-7180862067959066624-Iffu?utm_source=share&utm_medium=member_desktop)
